@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{ 
+    background-color:#F3F3F3;
+    font-family:'Poppins', sans-serif;
+}
+
+.embla__container {
+    display: flex;
+    position:relative;
+    transition: transform 0.3s ease; /* Smooth slide transition */
+  }
+  
+  .embla__slide {
+    width: 100%; /* Ensures each slide takes full width */
+    flex: 0 0 auto; /* Prevents any flex growth */
+    min-width: 0; /* Prevents overflow */
+}
+  .embla{ 
+    overflow:hidden;
+  }
+
+  .set-brightness{ 
+    filter:brightness(0.4);
+    opacity:.77;
+  }
+
+  .set-filter{ 
+    filter:brightness(0.4)
+  }
+
+  .set-overlay{ 
+    position:relative;
+    border-radius:6px;
+  }
+
+  .set-overlay::before{
+    background:black;
+    content:'';
+    
+    position:absolute;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    filter:brightness(0.7) opacity(0.5);
+    border-radius:6px;
+  }
+
+  .hide-tabs{ 
+    display:none
+  }
+
+  .show-tabs{
+    display:block;
+  }
+
+  .active-tabs-border{ 
+    border-bottom: 4px solid #121A6B;
+    
+  }
+
+  .active-tabs{ 
+    color: #121A6B; 
+    font-weight:600;
+    
+  }
