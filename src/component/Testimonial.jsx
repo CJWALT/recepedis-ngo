@@ -20,7 +20,7 @@ function Testimonial() {
 
 
   return (
-    <div className='w-[90%] mx-auto max-w-[1280px] py-[2rem]'>
+    <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto max-w-[1280px] py-[2rem]'>
       <h4 className='text-[1.2rem] text-center sm:text-[1.5rem] font-semibold text-blueText mb-[2.6rem]'>Testimonial</h4>
     
         <div className='relative embla w-full ' ref={emblaRef}>
