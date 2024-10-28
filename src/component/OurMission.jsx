@@ -28,9 +28,12 @@ function OurMission() {
             </div>
             
             <div className='self-center md:flex-grow md:basis-[55%]'>
-                <h4 className='text-[#121A6B] font-semibold text-[1.3rem] sm:text-[1.5rem] mb-[1.5rem]'>Our Mission</h4>
+              <div className=''>
+              <h4 className='text-[#121A6B] font-semibold text-[1.3rem] sm:text-[1.5rem] mb-[.5rem]'>Our Mission</h4>
                 <p className='font-semibold text-[.8rem] sm:text-[1.1rem]'>We are restoring hope to a dying world and giving life a meaning</p>
-                <div className='mt-[3rem] relative'>
+                
+              </div>
+                <div className='mt-[1.4rem] relative'>
                     <div className='border-[#ACACAC] relative flex flex-row gap-[2.5rem] lg:gap-[3rem] xl:gap-[4rem] md:gap-[1.4rem] mb-[.8rem] border-b-4'>
                       <div onClick={()=>updateToggle(1)} className={`${showTabs === 1 ? 'active-tabs' : 'border-0'} relative cursor-pointer font-regular text-[.9rem] sm:text-[1.3rem]`}>
                         Our Mission 
