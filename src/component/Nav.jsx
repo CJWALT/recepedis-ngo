@@ -2,7 +2,10 @@ import React, { useState } from 'react'
 
 import Logo from '../assets/logo.png'
 import {Link} from 'react-router-dom'
+
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import CloseIcon from '@mui/icons-material/Close';
+
 
 import Button from './Button'
 
@@ -43,7 +46,11 @@ function Nav() {
        
       </div>
      <div className='items-center flex lg:hidden'>
-            <MenuRoundedIcon onClick={toggle} className='!w-[3rem] cursor-pointer !h-[3rem]'/>
+      {   openMenu ?
+        <CloseIcon onClick={toggle} className='!w-[3rem] cursor-pointer !h-[3rem]'/>
+          :
+        <MenuRoundedIcon onClick={toggle} className='!w-[3rem] cursor-pointer !h-[3rem]'/>
+      }
         </div>
     </div>
   )
