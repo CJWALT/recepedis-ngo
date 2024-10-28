@@ -30,7 +30,7 @@ function Nav() {
       <div className=''>
             <img src={Logo} alt='logo' className='object-contain w-[92px] h-[89px]'/>
       </div>
-     <div className={` justify-between z-50 items-center transition-opacity duration-500 ease-in ${openMenu ? ' flex absolute left-0 transition-opacity duration-300 top-0 rounded-lg w-[13rem] bg-[#6EB6E9] py-6 flex-col' : 'hidden lg:flex lg:w-[45rem] lg:max-w[41rem]'}`}>
+     <div className={` justify-between z-50 items-center transition-opacity duration-500 ease-in ${openMenu ? ' flex absolute left-0 transition-opacity opacity-100 duration-900 ease-in-out top-0 rounded-lg w-[13rem] bg-[#6EB6E9] py-6 flex-col' : 'opacity-0 hidden lg:flex lg:w-[45rem] lg:max-w[41rem]'}`}>
         <div className='flex flex-col lg:flex-row lg:w-[72%] items-center gap-4 lg:pb-0 pb-[2rem] justify-between w-[70%]'>
         {links.map((link) => ( 
           <li key={link.id} className='list-none'>
