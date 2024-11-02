@@ -10,6 +10,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 
@@ -27,7 +29,9 @@ const Footer = () => {
                         <a href="https://www.facebook.com/profile.php?id=100079275348605&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer"><FacebookIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="URL`" target="_blank" rel="noopener noreferrer"><InstagramIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="URL`" target="_blank" rel="noopener noreferrer"><XIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
+                        <a href="URL`" target="_blank" rel="noopener noreferrer"><YouTubeIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="URL`" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
+                        <a href="URL`" target="_blank" rel="noopener noreferrer"><WhatsAppIcon className='!w-[3rem] !h-[3rem] px-[.5rem] py-[.5rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                     </span>
                 </div>
                 <div className=''>
@@ -52,7 +56,7 @@ const Footer = () => {
 
             <div className='font-light text-[.6rem] sm:text-[.8rem] gap-[10px] flex-wrap justify-center pb-[1rem] flex flex-row'>
                 <span className='mb-[1rem] block'>
-                Copyright 2022 <a href='www.github.com/cjwalt' target='_blank' className='text-btnColor font-bold'>cjwalt 2024</a> All Rights Reserved.
+                Copyright <a href='www.github.com/cjwalt' target='_blank' className='text-btnColor font-bold'>cjwalt 2024</a> All Rights Reserved.
                 </span>
                 <div className='flex flex-row justify-between gap-8'>
                     <span>

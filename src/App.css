@@ -27,6 +27,14 @@ body{
     overflow:hidden;
   }
 
+  .spread__embla > div{ 
+    margin-right: 1rem;
+  }
+
+  .spread__embla > div:last-child{ 
+    margin-right: 0;
+  }
+
   .set-brightness{ 
     filter:brightness(0.4);
     opacity:.77;

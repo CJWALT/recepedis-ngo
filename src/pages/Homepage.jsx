@@ -73,7 +73,7 @@ function Homepage() {
       <small className='absolute bottom-[2.1rem] w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Mental Awareness</small></div>
     </section>
     <OurMission/>
-    {/* <OurActivities/> */}
+    <OurActivities/>
 
     <Testimonial/>
     <TeamMember/>
