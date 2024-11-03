@@ -30,15 +30,15 @@ function OurActivities() {
     
   return (
     <>
-        <section className='relative w-[90%] sm:w-[80%] md:w-[90%] py-[3rem] pb-[3.7rem] mx-auto max-w-[1280px] sm:border-2 sm:border-red-400 md:border-blue-400 lg:border-green-400 xl:border-yellow-400'>
+        <section className='relative w-[90%] sm:w-[80%] md:w-[90%] py-[3rem] pb-[3.7rem] mx-auto max-w-[1280px]'>
             <h4 className='text-center text-[1.3rem] sm:text-[1.5rem] mb-[3.8rem] font-semibold text-[#121A6B]'>Our Activities</h4>
                 <div className='relative'>
-                <div className='w-[95%] mx-auto border-2 border-red-200'>
+                <div className='w-[95%] mx-auto'>
                     <div className='embla w-full' ref={emblaRef}>
                         <div className='embla__container spread__embla mx-auto flex flex-row'>
                             <div className='embla__slide md:overflow-hidden md:flex-[0_0_50%] lg:flex-[0_0_33.3%] flex flex-col items-center'>
                                         <img src={SlideImage} alt="activities slide" className='mb-[1.2rem] md:h-[12rem] md:w-[19rem] h-[9rem] w-[18rem] sm:w-[19rem] sm:h-[10rem] rounded-[6px] object-center object-cover' />
-                                    <div className='bg-[#EFEEEE] w-[18rem] sm:w-[19rem] border-2 border-red-400 pb-[2.2rem] pt-[.8rem] pl-[.75rem] pr-[1.3rem]'>
+                                    <div className='bg-[#EFEEEE] w-[18rem] sm:w-[19rem] pb-[2.2rem] pt-[.8rem] pl-[.75rem] pr-[1.3rem]'>
                                         <h4 className='font-semibold text-center mb-[1.7rem] text-[1rem] sm:text-[1.1rem] text-[#121A6b]'>
                                             Health
                                         </h4>

@@ -1,10 +1,11 @@
 import React from 'react'
 
 
-import TeamOne from '../assets/team one.png'
-import TeamTwo from '../assets/team two.png'
+import TeamOne from '../assets/teamOne.jpeg'
+import TeamTwo from '../assets/teamTwo.jpeg'
 import TeamThree from '../assets/teamThree.jpg'
-import TeamFour from '../assets/teamFour.jpg.png'
+import TeamFour from '../assets/teamFour.jpeg'
+import TeamFive from '../assets/teamFive.jpeg'
 
 export default function TeamMember() {
   return (
@@ -24,46 +25,6 @@ export default function TeamMember() {
                 </div >
                 <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
                     <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
-                    <img src={TeamTwo} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
-                    </div>
-                    
-                    <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
-                    </span>
-                </div >
-                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
-                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
-                    <img src={TeamOne} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
-                    </div>
-                    
-                    <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
-                    </span>
-                </div >
-                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
-                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
-                    <img src={TeamThree} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
-                    </div>
-                    
-                    <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
-                    </span>
-                </div >
-                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
-                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
-                    <img src={TeamTwo} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
-                    </div>
-                    
-                    <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
-                    </span>
-                </div >
-                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
-                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
                     <img src={TeamFour} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
                     </div>
                     
@@ -72,16 +33,14 @@ export default function TeamMember() {
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
                     </span>
                 </div >
-                
-                
                 <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
                     <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
-                    <img src={TeamThree} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
+                    <img src={TeamFive} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Bindong Comfort</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Fin. Secretary</small>
                     </span>
                 </div >
                 <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
@@ -90,8 +49,50 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Zitem Francisca</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Executive Assistant</small>
+                    </span>
+                </div >
+                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
+                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
+                    <img src={TeamTwo} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
+                    </div>
+                    
+                    <span className='block'>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Ngwa Damaris N.</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Adviser</small>
+                    </span>
+                </div >
+                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
+                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
+                    <img src={TeamFour} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
+                    </div>
+                    
+                    <span className='block'>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Fobogho Clifford</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Executive Assistant</small>
+                    </span>
+                </div >
+                
+                
+                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
+                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
+                        <img src={TeamTwo} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
+                    </div>
+                    
+                    <span className='block'>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>FONGOH Julius C. </h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Treasurer</small>
+                    </span>
+                </div >
+                <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
+                    <div className='mb-4 h-[10rem] w-full flex justify-center rounded-[6px] '>
+                    <img src={TeamOne} alt="team one" className='shadow-lg w-[8rem] object-contain'/>
+                    </div>
+                    
+                    <span className='block'>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>NJI Atanga I.</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Adviser</small>
                     </span>
                 </div >
             </div>
