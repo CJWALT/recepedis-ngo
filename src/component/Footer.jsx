@@ -48,7 +48,7 @@ const Footer = () => {
                 <div>
                     <h4 className='capitalize text-[#121A6B] font-semibold bg-[#E9E9E9] w-[10rem] py-[10px] pl-[5px] rounded-[6px]'>Care Lines</h4>
                     <ul className='pl-[5px] flex flex-col gap-6 mt-4'>
-                        <li><PhoneIcon/> <a href="tel:+237677087801">+237 677 0 8780</a></li>
+                        <li><PhoneIcon/> <a href="tel:+237677087801">+237 677 0 87801</a></li>
                         
                     </ul>
                 </div>

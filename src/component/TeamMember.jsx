@@ -29,8 +29,8 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Job Silver</h4>
-                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>Lorem ipsum.</small>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Princess Wuloko P.</h4>
+                        <small className='font-normal text-[.8rem] sm:text-[1rem]'>P.A to the CEO</small>
                     </span>
                 </div >
                 <div className='flex-grow-1 items-center sm:basis-[30%] flex-shrink-0 md:basis-[22%] lg:basis-[18%] basis-[42%] flex flex-col'>
