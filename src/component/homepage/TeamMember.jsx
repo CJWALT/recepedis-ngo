@@ -29,7 +29,7 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Princess Wuloko P.</h4>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Princess Wuloko</h4>
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>P.A to the CEO</small>
                     </span>
                 </div >
@@ -59,7 +59,7 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Ngwa Damaris N.</h4>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Ngwa Damaris</h4>
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>Adviser</small>
                     </span>
                 </div >
@@ -81,7 +81,7 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>FONGOH Julius C. </h4>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>FONGOH Julius </h4>
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>Treasurer</small>
                     </span>
                 </div >
@@ -91,7 +91,7 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>NJI Atanga I.</h4>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>NJI Atanga</h4>
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>Adviser</small>
                     </span>
                 </div >

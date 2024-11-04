@@ -37,8 +37,6 @@ function Homepage() {
 
   return (
     <>
-      <Nav/>
-     
      <div className="embla overflow-hidden w-[100%] relative h-[800px] flex justify-center" ref={emblaRef}>
       <div className="embla__container flex self-center flex-row w-[100%] mx-auto">
         <div className="embla__slide w-[100%] h-[800px] flex-shrink-0"><img src={HeroImgOne} className='set-brightness object-cover h-[800px] object-center'alt='hero-slide'/></div>
@@ -68,20 +66,17 @@ function Homepage() {
     <AboutSection/>
 
     <section className='w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] mx-auto flex-wrap justify-center md:gap-[2.1rem] flex flex-row py-[3rem] items-center gap-[3rem]'>
-      <div className='flex-none relative'><img src={BannerImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
-      <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Rescue Assistance</small></div>
-      <div className='flex-none relative'><img src={BannerImgTwo} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
+      <div className='flex-none relative'><img src={BannerImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[18.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
+      <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Counselling</small></div>
+      <div className='flex-none relative'><img src={BannerImgTwo} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[18.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
       <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Vocational Training</small></div>
-      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
+      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[18.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
       <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Mental Awareness</small></div>
     </section>
     <OurMission/>
     <OurActivities/>
-
     <Testimonial/>
     <TeamMember/>
-    <Footer/>
-    
     </>
   )
 }
