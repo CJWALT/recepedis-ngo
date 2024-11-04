@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 
-import UserOne from '../assets/test-one.jpeg'
-import CarouselBtnLeft from './CarouselBtnLeft'
-import CarouselBtnRight from './CarouselBtnRight'
+import UserOne from '../../assets/test-one.jpeg'
+import CarouselBtnLeft from '../CarouselBtnLeft'
+import CarouselBtnRight from '../CarouselBtnRight'
 import useEmblaCarousel from 'embla-carousel-react'
 
 function Testimonial() {

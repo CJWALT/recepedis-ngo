@@ -11,6 +11,9 @@ module.exports = {
       backgroundImage:{ 
         'hero-pattern': 'url(./assets/hero-img.jpeg)',
       }, 
+      filter:{ 
+        'sepia-8': 'sepia(8)',
+      },
       
     },
   },

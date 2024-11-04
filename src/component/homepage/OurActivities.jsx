@@ -1,12 +1,12 @@
-import React, { useCallback, useEffect } from 'react'
+import React, { useCallback } from 'react'
 
-import SlideImage from '../assets/ouractivitiesslidetwo.jpeg'
-import SlideImageTwo from '../assets/ouractivitiesslide.jpeg'
+import SlideImage from '../../assets/ouractivitiesslidetwo.jpeg'
+// import SlideImageTwo from '../assets/ouractivitiesslide.jpeg'
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-import CarouselBtnLeft from '../component/CarouselBtnLeft'
-import CarouselBtnRight from '../component/CarouselBtnRight'
+import CarouselBtnLeft from '../../component/CarouselBtnLeft'
+import CarouselBtnRight from '../../component/CarouselBtnRight'
 import { Link } from 'react-router-dom';
 
 import useEmblaCarousel from 'embla-carousel-react';

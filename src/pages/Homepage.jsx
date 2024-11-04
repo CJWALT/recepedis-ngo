@@ -9,15 +9,18 @@ import HeroImgOne from '../assets/hero-img-one.jpeg'
 import HeroImgTwo from '../assets/hero-img-two.jpeg'
 import HeroImgThree from '../assets/hero-img-three.jpeg'
 
+import BannerImgOne from '../assets/counsel-img.jpg'
+import BannerImgTwo from '../assets/vocational-img.jpg'
+
 
 import useEmblaCarousel from 'embla-carousel-react';
 import Button from '../component/Button'
-import Testimonial from '../component/Testimonial'
-import OurMission from '../component/OurMission'
-import AboutSection from '../component/AboutSection'
-import OurActivities from '../component/OurActivities'
+import Testimonial from '../component/homepage/Testimonial'
+import OurMission from '../component/homepage/OurMission'
+import AboutSection from '../component/homepage/AboutSection'
+import OurActivities from '../component/homepage/OurActivities'
 import Footer from '../component/Footer'
-import TeamMember from '../component/TeamMember'
+import TeamMember from '../component/homepage/TeamMember'
 
 function Homepage() {
 
@@ -64,13 +67,13 @@ function Homepage() {
     </div>
     <AboutSection/>
 
-    <section className='w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] mx-auto md:flex-wrap md:justify-center md:gap-[2.1rem] md:flex-row flex flex-col py-[3rem] items-center gap-[5.18rem]'>
-      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' className='object-cover w-[21.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] opacity-60 relative h-[18.3rem] object-center rounded-[6px]'/>
-      <small className='absolute bottom-[2.1rem] w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Rescue Assistance</small></div>
-      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' className='object-cover w-[21.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] opacity-60 relative h-[18.3rem] object-center rounded-[6px]'/>
-      <small className='absolute bottom-[2.1rem] w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Safe Lodging</small></div>
-      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' className='object-cover w-[21.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] opacity-60 relative h-[18.3rem] object-center rounded-[6px]'/>
-      <small className='absolute bottom-[2.1rem] w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Mental Awareness</small></div>
+    <section className='w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] mx-auto flex-wrap justify-center md:gap-[2.1rem] flex flex-row py-[3rem] items-center gap-[3rem]'>
+      <div className='flex-none relative'><img src={BannerImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
+      <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Rescue Assistance</small></div>
+      <div className='flex-none relative'><img src={BannerImgTwo} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
+      <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Vocational Training</small></div>
+      <div className='flex-none relative'><img src={HeroImgOne} alt='safe lodge activities' style={{filter:'sepia(8)'}} className='object-cover w-[10.5rem] xl:w-[21.5rem] xl:h-[21.3rem] md:h-[12.3rem] md:w-[20rem] lg:w-[17rem] lg:h-[15.3rem] filter sepia opacity-60 relative h-[10.3rem] object-center rounded-[6px]'/>
+      <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Mental Awareness</small></div>
     </section>
     <OurMission/>
     <OurActivities/>

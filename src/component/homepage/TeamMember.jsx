@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-import TeamOne from '../assets/teamOne.jpeg'
-import TeamTwo from '../assets/teamTwo.jpeg'
-import TeamThree from '../assets/teamThree.jpg'
-import TeamFour from '../assets/teamFour.jpeg'
-import TeamFive from '../assets/teamFive.jpeg'
+import TeamOne from '../../assets/teamOne.jpeg'
+import TeamTwo from '../../assets/teamTwo.jpeg'
+import TeamThree from '../../assets/teamThree.jpg'
+import TeamFour from '../../assets/teamFour.jpeg'
+import TeamFive from '../../assets/teamFive.jpeg'
 
 export default function TeamMember() {
   return (
