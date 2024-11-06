@@ -7,7 +7,7 @@ function OurVision() {
     <>
         <section className=''>
         <ImgBackdrop
-          className='bg-[#03768F]'
+          className='before:bg-[#03768F]'
           img={AboutBanner}/>
             <div className='py-[1rem] flex flex-col gap-4'>
               <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem]'>Our Vision</h4>
