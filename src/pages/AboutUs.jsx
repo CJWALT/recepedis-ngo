@@ -15,14 +15,23 @@ function AboutUs() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure atque reprehenderit, non illo ea optio labore.
               </p>
             </div>
-          <div className='border-red-400 border-2'>
+          
             <OurVision/>
           </div>
+
+          <div className=' bg-white py-6'>
+          <OurMission/>
           </div>
           
-          <OurMission/>
+          <div className='py-6'>
           <OurValues/>
-          <OurGoals/>
+          </div>
+
+          <div className=' bg-white py-6'>
+          <OurGoals/> 
+          </div>
+          
+         
 
 
       </section>
