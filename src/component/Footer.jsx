@@ -24,11 +24,10 @@ const Footer = () => {
             <div className='w-[90%] sm:w-[80%] md:w-[90%] py-[3.5rem] mx-auto max-w-[1280px] flex flex-col sm:flex-row sm:flex-wrap sm:justify-between gap-8'>
                 <div className='py-2 flex flex-col gap-[2rem] sm:basis-[18rem] lg:basis-[25rem] overflow-hidden flex-grow-0 flex-shrink-0'>
                     <img src={Logo} alt='recepedis logo' className='w-[8rem] h-[8rem] sm:w-[10rem] sm:h-[10rem]'/>
-                    <p className='text-[.9rem] sm:text-[1rem] font-light leading-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore placeat aperiam fugit explicabo error.</p>
+                    <p className='text-[.9rem] sm:text-[1rem] font-light leading-6'>Building a world where mental health is valued, compassion thrives, and no one faces their struggles alone.</p>
                     <span className='flex flex-row items-center gap-2'>
                         <a href="https://www.facebook.com/profile.php?id=100079275348605&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer"><FacebookIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="https://instagram.com/recepedis237?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer"><InstagramIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
-                        <a href="URL`" target="_blank" rel="noopener noreferrer"><XIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="https://youtube.com/@redemptioncenterforpersons597" target="_blank" rel="noopener noreferrer"><YouTubeIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="URL`" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         <a href="https://wa.me/+237677087801" target="_blank" rel="noopener noreferrer"><WhatsAppIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
@@ -39,10 +38,10 @@ const Footer = () => {
                     quick links
                         </h4>
                         <ul className='pl-[5px] mt-4 flex flex-col gap-6'>
-                            <li>Home</li>
-                            <li>About us</li>
-                            <li>Our Activities</li>
-                            <li>Contact us</li>
+                            <li><Link to ='/'>Home</Link></li>
+                            <li><Link to ='/about-us'>About us</Link></li>
+                            <li><Link to ='/'>Our Activities</Link></li>
+                            <li><Link to ='/'>Contact us</Link></li>
                         </ul>
                 </div>
                 <div>
