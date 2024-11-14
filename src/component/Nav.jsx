@@ -26,7 +26,7 @@ function Nav() {
   }
 
   return (
-    <div className='py-[1.3rem] flex flex-row justify-between w-[90%] max-w-[1280px] mx-auto'>
+    <div className='py-[1.3rem] flex flex-row justify-between w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] mx-auto'>
       <NavLink to='/' className=''>
             <img src={Logo} alt='logo' className='object-contain w-[92px] h-[89px]'/>
       </NavLink>

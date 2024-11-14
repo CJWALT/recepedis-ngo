@@ -1,21 +1,22 @@
 import React from 'react'
-import AboutBanner from '../../assets/counsel-img.jpg'
+import AboutBanner from '../../assets/ouractivitiesslidetwo.jpeg'
 import ImgBackdrop from './ImgBackdrop'
 
 function OurMission() {
   return (
     <>
-        <section className='w-[90%] md:w-[90%] mx-auto sm:w-[80%]'>
-            <div className='py-[1rem] flex flex-col gap-4'>
-              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem]'>Our Mission</h4>
-              <p className='font-light text-[.8rem] sm:text-[1rem] text-justify'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga voluptas voluptatum quam quis nobis incidunt, velit voluptate necessitatibus.
+        <div className='md:py-[2rem] w-[90%] max-w-[1280px] sm:w-[80%] md:w-[90%] mx-auto flex flex-col md:flex-row md:mb-[2rem] gap-2 xl:gap-[3rem]'>
+          <div className='pb-[2rem] order-2 md:order-2 md:w-[48%] xl:w-[52%] lg:w-[50%] flex flex-col gap-2 md:self-center'>
+              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem] md:text-[2rem] xl:text-[2.3rem] lg:text-[2.5rem]  '>Our Mission</h4>
+              <p className='font-light text-[.8rem] sm:text-[1rem] lg:text-[1.3rem] xl:text-[1.5rem] text-justify'>
+              Restore hope among these vulnerable persons, and groups that have been affected by war, political and economic crises, poverty, abuse violence, disease and other natural calamities through rescue, psychosocial support, education and advocacy so that every individual feels seen, heard and valued.
               </p>
             </div>
-            <ImgBackdrop
-          className='before:bg-[#E45959]'
-          img={AboutBanner}/>
-            </section> 
+        
+          <ImgBackdrop
+            className='before:bg-[#E45959] md:!ml-auto md:!mr-0'
+            img={AboutBanner}/>             
+        </div> 
     </>
   )
 }

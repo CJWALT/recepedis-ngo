@@ -5,17 +5,17 @@ import ImgBackdrop from './ImgBackdrop'
 function OurValues() {
   return (
     <>
-        <section className='w-[90%] md:w-[90%] mx-auto sm:w-[80%]'>
+        <div className='md:py-[2rem] mx-auto w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] flex flex-col md:flex-row md:mb-[2rem] gap-2 xl:gap-[3rem]'>
         <ImgBackdrop
           className='before:bg-[#03768F]'
-          img={AboutBanner}/>
-            <div className='py-[1rem] flex flex-col gap-4'>
-              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem]'>Our Values</h4>
-              <p className='font-light text-[.8rem] sm:text-[1rem] text-justify'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga voluptas voluptatum quam quis nobis incidunt, velit voluptate necessitatibus.
+          img={AboutBanner}/> 
+            <div className='pb-[2rem] md:w-[48%] xl:w-[52%] lg:w-[50%] flex flex-col gap-2 md:self-center'>
+              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem] md:text-[2rem] xl:text-[2.3rem] lg:text-[2.5rem]  '>Our Values</h4>
+              <p className='font-light text-[.8rem] sm:text-[1rem] lg:text-[1.3rem] xl:text-[1.5rem] text-justify'>
+              A world where mental and emotional health Is prioritized, where compassion reigns supreme and no one suffers in solitude by eradicating evstigma and silence.
               </p>
             </div>
-            </section> 
+            </div> 
     </>
   )
 }

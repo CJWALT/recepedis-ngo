@@ -5,17 +5,17 @@ import ImgBackdrop from './ImgBackdrop'
 function OurVision() {
   return (
     <>
-        <section className='border-2 sm:border-blue-400 md:border-green-400 lg:border-pink-400 xl:border-purple-400'>
+        <div className='md:py-[2rem] max-w-[1280px] md:flex md:flex-row md:mb-[2rem] gap-2 xl:gap-[3rem]'>
         <ImgBackdrop
           className='before:bg-[#03768F]'
           img={AboutBanner}/> 
-            <div className='py-[1rem] flex flex-col gap-4'>
-              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem]'>Our Vision</h4>
-              <p className='font-light text-[.8rem] sm:text-[1rem] text-justify'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga voluptas voluptatum quam quis nobis incidunt, velit voluptate necessitatibus.
+            <div className='pb-[2rem] md:w-[48%] xl:w-[52%] lg:w-[50%] flex flex-col gap-2 md:self-center'>
+              <h4 className='font-medium text-[1.3rem] text-txtColor sm:text-[1.8rem] md:text-[2rem] xl:text-[2.3rem] lg:text-[2.5rem]  '>Our Vision</h4>
+              <p className='font-light text-[.8rem] sm:text-[1rem] lg:text-[1.3rem] xl:text-[1.5rem] text-justify'>
+              A world where mental and emotional health Is prioritized, where compassion reigns supreme and no one suffers in solitude by eradicating evstigma and silence.
               </p>
             </div>
-            </section> 
+            </div> 
     </>
   )
 }
