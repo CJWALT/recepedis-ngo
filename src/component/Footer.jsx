@@ -7,7 +7,6 @@ import Logo from '../assets/footer__logo.png'
 
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -40,7 +39,7 @@ const Footer = () => {
                         <ul className='pl-[5px] mt-4 flex flex-col gap-6'>
                             <li><Link to ='/'>Home</Link></li>
                             <li><Link to ='/about-us'>About us</Link></li>
-                            <li><Link to ='/'>Our Activities</Link></li>
+                            <li><Link to ='/ouractivities'>Our Activities</Link></li>
                             <li><Link to ='/'>Contact us</Link></li>
                         </ul>
                 </div>

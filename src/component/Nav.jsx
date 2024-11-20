@@ -12,8 +12,8 @@ import Button from './Button'
 const links = [
         {id:1, name:'Home', path:'/'},
         {id:2, name:'About Us', path:'/about-us'},
-        {id:3, name:'Contact Us', path:'/constact'},
-        {id:4, name:'Our Activities', path:'/ouractfivities'}
+        {id:3, name:'Contact Us', path:'/contact'},
+        {id:4, name:'Our Activities', path:'/ouractivities'}
       ]
 
       
