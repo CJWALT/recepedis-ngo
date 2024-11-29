@@ -7,11 +7,12 @@ function Contact() {
   const [message, setMessage] = useState('')
 
   const handleSubmit = async (e) =>{
-    e.prevent.default();
+    e.preventDefault();
     console.log(name)
     try{ 
-        const res = await fetch('http://localhost:3000/api/sendMessage',{ 
+        const res = await fetch('http://localhost:3000/api/sendmessage',{ 
             method:'POST',
+            mode:'no-cors',
             body: JSON.stringify({ 
               name, email, message
             }),
@@ -23,8 +24,7 @@ function Contact() {
         
     catch(err){ 
       console.log('err', err)
-    }
-    
+    }    
   }
  
   return (

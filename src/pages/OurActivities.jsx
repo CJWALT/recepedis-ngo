@@ -6,6 +6,8 @@ import ActivityItem from '../component/ouractivities/ActivityItem'
 
 import activities from '../../src/ActivityData.json'
 
+
+
 const OurActivities = () => {
 
     const [currentPage, setCurrentPage] = useState(1)
@@ -20,14 +22,17 @@ const OurActivities = () => {
     }
 
   return (
-    <div className='flex flex-col gap-[2rem] py-[4rem]'>
+    <div className='flex flex-col gap-[2rem] pb-[4rem]'>
       <div className='w-[90%] mx-auto'>
         <Stack spacing={3}>
-          {currentItems.map((activity)=>{
+          {currentItems.map((activity, i)=>{
             return(
               <ActivityItem
+              key={i}
               heading={activity.heading}
               paragraph={activity.para}
+              imgOne={activity.imgOne}
+              imgTwo={activity.imgTwo}
             />
             ) 
               
