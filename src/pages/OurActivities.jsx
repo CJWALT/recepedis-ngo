@@ -23,7 +23,7 @@ const OurActivities = () => {
 
   return (
     <div className='flex flex-col gap-[2rem] pb-[4rem]'>
-      <div className='w-[90%] mx-auto'>
+      <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto'>
         <Stack spacing={3}>
           {currentItems.map((activity, i)=>{
             return(

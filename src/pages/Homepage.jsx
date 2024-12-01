@@ -21,7 +21,11 @@ import AboutSection from '../component/homepage/AboutSection'
 import OurActivities from '../component/homepage/OurActivities'
 import TeamMember from '../component/homepage/TeamMember'
 
+import { useNavigate } from 'react-router-dom'
+
 function Homepage() {
+
+  const navigate = useNavigate();
 
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
@@ -33,6 +37,10 @@ function Homepage() {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
+
+  const goToActivitiesPage = () =>{ 
+    navigate('/ouractivities')
+  }
 
   return (
     <>
@@ -50,6 +58,7 @@ function Homepage() {
             <div className='mt-[13rem] w-[22rem] max-w-[23rem] overflow-hidden flex flex-row gap-4'>
               <Button 
               children='View More'
+              onClick={goToActivitiesPage}
               className='bg-btnColor text-white hover:bg-white hover:text-black'/>
               <Button 
                 children='Donate Now'

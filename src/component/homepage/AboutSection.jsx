@@ -2,8 +2,15 @@ import React from 'react'
 import Button from '../Button'
 
 import AboutUsBanner from '../../assets/about-us.jpeg'
+import { useNavigate } from 'react-router-dom'
 
 function AboutSection() {
+
+    const navigate = useNavigate();
+
+    const goToAboutUsPage = ()=>{ 
+        navigate('/about-us')
+      }
   return (
         <>
         <div className='pt-1 pb-4 md:py-[6rem] w-[90%] max-w-[1280px] flex flex-col md:flex-row gap-[.6rem] md:gap-[2.6rem] lg:gap-[4rem] xl:gap-[6rem] sm:w-[80%] md:w-[90%] mx-auto'>
@@ -17,6 +24,7 @@ function AboutSection() {
                 </p>
                 <Button
                     children='View More'
+                    onClick={goToAboutUsPage}
                     className='bg-btnColor hover:text-black hover:bg-white'/>
             </div>
             <div className='order-1 md:order-2 md:flex md:flex-col md:flex-auto'>

@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import Button from '../Button'
 
-function OurMission() {
+import {useNavigate} from 'react-router-dom'
 
+function OurMission( ) {
+
+  const navigate = useNavigate();
 
 
   const [showTabs, setShowTabs] = useState(1)
@@ -10,6 +13,9 @@ function OurMission() {
     const updateToggle = (id) =>{
         setShowTabs(id)
     }
+  
+    
+
 
   return (
         <section className='bg-[#EFEEEE]'>
