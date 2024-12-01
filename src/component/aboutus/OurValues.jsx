@@ -5,7 +5,7 @@ import ImgBackdrop from './ImgBackdrop'
 function OurValues() {
   return (
     <>
-        <div className='w-[90%] h-[32rem] sm:h-[40rem] md:h-[32rem] justify-center border-2 sm:border-green-400 md:border-yellow-400 lg:border-blue-400 xl:border-red-400 max-w-[1280px] sm:w-[80%] md:w-[90%] mx-auto flex flex-col md:flex-row md:mb-[2rem] gap-[2rem] md:gap-[3rem] lg:gap-[4rem] xl:gap-[6rem]'>
+        <div className='w-[90%] py-[5rem] sm:py-[6.5rem] justify-center max-w-[1280px] sm:w-[80%] md:w-[90%] mx-auto flex flex-col md:flex-row md:mb-[2rem] gap-[2rem] sm:gap-[3rem] md:gap-[1.4rem] lg:gap-[2.5rem] xl:gap-[4rem]'>
         <ImgBackdrop
           className='before:bg-[#03768F]'
           img={AboutBanner}/> 

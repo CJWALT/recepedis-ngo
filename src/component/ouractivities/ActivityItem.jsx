@@ -10,11 +10,11 @@ const ActivityItem = ({heading, paragraph, imgOne, imgTwo}) => {
     <>
       <section className='pt-[2rem] pb-[3rem] md:flex md:flex-row md:gap-[5%] '>
         <div className='flex flex-col gap-6 md:gap-[.7rem] mb-[2rem] md:mb-0 md:w-[45%] xl:w-[40%]  md:order-2 md:flex md:flex-row'>
-          <div>
-            <img src={imgOne} alt='activity one' className='rounded-[6px] md:h-full object-cover object-center' />
+          <div className="">
+            <img src={imgOne} alt='activity one' className='filter brightness-90 rounded-[6px] md:h-full object-cover object-center' />
           </div>
-          <div>
-            <img src={imgTwo} alt='activity two' className='rounded-[6px] md:h-full object-cover object-center' />
+          <div className="">
+            <img src={imgTwo} alt='activity two' className='filter brightness-90 rounded-[6px] md:h-full object-cover object-center' />
           </div>
           
         </div>
