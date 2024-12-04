@@ -16,9 +16,9 @@ const OurActivities = () => {
     const indexOfLastItem = currentPage * itemsPerPage; 
     const indexOfFirstItem = indexOfLastItem - itemsPerPage; 
     const currentItems = activities.slice(indexOfFirstItem, indexOfLastItem)
-console.log(activities)
+
     const handlePageChange = (event, value) =>{
-      console.log(value)
+      
       setCurrentPage(value); 
     }
 

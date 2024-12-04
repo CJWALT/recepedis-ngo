@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
 import Button from '../Button'
 
-import {useNavigate} from 'react-router-dom'
 
 function OurMission( ) {
-
-  const navigate = useNavigate();
 
 
   const [showTabs, setShowTabs] = useState(1)

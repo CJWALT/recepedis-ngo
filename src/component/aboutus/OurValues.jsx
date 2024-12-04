@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutBanner from '../../assets/counsel-img.jpg'
+import AboutBanner from '../../assets/our_values.jpeg'
 import ImgBackdrop from './ImgBackdrop'
 
 function OurValues() {
