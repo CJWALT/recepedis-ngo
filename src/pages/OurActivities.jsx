@@ -16,8 +16,9 @@ const OurActivities = () => {
     const indexOfLastItem = currentPage * itemsPerPage; 
     const indexOfFirstItem = indexOfLastItem - itemsPerPage; 
     const currentItems = activities.slice(indexOfFirstItem, indexOfLastItem)
-
+console.log(activities)
     const handlePageChange = (event, value) =>{
+      console.log(value)
       setCurrentPage(value); 
     }
 
@@ -40,8 +41,10 @@ const OurActivities = () => {
           <Pagination
             className='flex justify-center'
             count = {Math.ceil(activities.length/itemsPerPage)}
-            page={activities}
+            page={currentPage}
             onChange={handlePageChange}
+            hidePrevButton
+            hideNextButton
             />
 
         </Stack>
