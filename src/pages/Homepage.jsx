@@ -43,7 +43,7 @@ function Homepage() {
   }
 
   return (
-    <>
+    <div className='bg-[#F3F3F3]'>
      <div className="embla overflow-hidden w-[100%] relative h-[800px] flex justify-center" ref={emblaRef}>
       <div className="embla__container flex self-center flex-row w-[100%] mx-auto">
         <div className="embla__slide w-[100%] h-[800px] flex-shrink-0"><img src={HeroImgOne} className='set-brightness object-cover h-[800px] object-center'alt='hero-slide'/></div>
@@ -85,7 +85,7 @@ function Homepage() {
     <OurActivities/>
     <Testimonial/>
     <TeamMember/>
-    </>
+    </div>
   )
 }
 

@@ -3,11 +3,14 @@ import React from 'react'
 import OurMission from '../component/aboutus/OurMission';
 import OurValues from '../component/aboutus/OurValues';
 import OurGoals from '../component/aboutus/OurGoals';
+import Founder from '../component/aboutus/Founder';
   
 function AboutUs() {
   return (
     <>
         <section className='bg-[#E5E5E5]' >
+        <Founder />
+
           <div className='w-[90%] max-w-[1280px] sm:w-[80%] md:w-[90%] mx-auto'>
           <div className='pt-[3rem]'>
               <h3 className='text-[1.3rem] mb-2 leading-[25px] sm:text-[1.4rem] md:text-[1.8rem] xl:text-[2rem] font-medium text-center text-txtColor'>More Than $100 Million Donated since 2015</h3>

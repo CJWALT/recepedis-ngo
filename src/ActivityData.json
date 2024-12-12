@@ -3,47 +3,54 @@
         "heading": "Medical Assistance",
         "para":"We ensure people in need have access to basic healthcare services. Our team provides medical check-ups, minor treatments, and connects patients to partner hospitals for advanced care. We also focus on educating the community about staying healthy and preventing diseases. Our health services aim to reduce suffering and improve overall well-being, especially for those who can’t afford proper care. Everyone deserves to live a healthy life, and we are here to make that possible for the vulnerable.",
         "imgOne":"./activitiesAssets/med-assist.jpeg", 
-        "imgTwo":"./activitiesAssets/med_assist.jpeg" 
+        "imgTwo":"./activitiesAssets/med_assist.jpeg", 
+        "bgColor": "bg-white"
     },
     
     {
         "heading": "Safe Lodging",
         "para":"We offer a safe and comfortable place to stay for individuals and families facing homelessness or crisis. Our lodging program provides clean spaces with essential supplies like beds, blankets, and meals. We understand the importance of safety during tough times and strive to create a peaceful environment for healing and recovery. While temporary, these shelters give people the stability they need to rebuild their lives and move towards a brighter, more secure future.",
         "imgOne":"./activitiesAssets/safe-lodge.jpeg", 
-        "imgTwo":"./activitiesAssets/saf-lodge.jpeg"
+        "imgTwo":"./activitiesAssets/saf-lodge.jpeg", 
+        "bgColor": "bg-[#E9E9E9]"
     },
     
     {
         "heading": "Counseling",
         "para":"We provide compassionate counselling for people going through difficult times. Our trained counselors offer emotional support, help individuals navigate their struggles, and guide them toward positive solutions. Whether it’s dealing with trauma, stress, or family issues, we ensure a safe, non-judgmental space for healing. Talking to someone who cares can make all the difference, and we are here to listen. Our counselling services aim to restore hope and strength, one person at a time.",
         "imgOne":"./activitiesAssets/counsel.jpeg",
-        "imgTwo":"./activitiesAssets/safe-lodge.jpeg"
+        "imgTwo":"./activitiesAssets/safe-lodge.jpeg", 
+        "bgColor": "bg-white"
     },
      
     {
         "heading": "Psychosocial Support",
         "para":"We offer psychosocial support to help individuals cope with emotional and social challenges during difficult times. Our trained professionals provide a safe space to talk, process emotions, and rebuild confidence. This service focuses on mental well-being and fostering resilience by addressing issues like trauma, anxiety, and stress. Through one-on-one sessions, group therapy, and community support, we help people regain stability and a sense of belonging. Everyone deserves to feel supported and valued, especially during moments of crisis.",
         "imgOne":"./activitiesAssets/physo.jpeg",
-        "imgTwo":"./activitiesAssets/safe-lodge.jpeg" 
+        "imgTwo":"./activitiesAssets/safe-lodge.jpeg", 
+        "bgColor": "bg-[#E9E9E9]"
     },
     
     {
         "heading": "Rescue Assistance",
         "para":"When emergencies strike, we act fast to bring people to safety. Our rescue team responds to cases of abuse, violence, and homelessness, ensuring immediate help. We offer safe transportation, first aid, and guidance to connect individuals with the resources they need. This service is about providing a lifeline during critical moments, ensuring no one faces danger alone. Our mission is to be there for people when they need it the most, offering a fresh start.",
         "imgOne":"./activitiesAssets/rescue-assistance.jpg", 
-        "imgTwo":"./activitiesAssets/rescue_assistance.jpeg" 
+        "imgTwo":"./activitiesAssets/rescue_assistance.jpeg", 
+        "bgColor": "bg-white"
     },
     
     {
         "heading": "Educational Support",
         "para":"Our education assistance program helps children and young adults access learning opportunities. We cover school fees, provide supplies like books and uniforms, and offer tutoring for struggling students. Education is a right, not a privilege, and we work to ensure financial hardship doesn’t stop anyone from learning. By bridging gaps and supporting long-term learning, we give young minds the tools to succeed and contribute to their communities. Every child deserves the chance to learn and grow.",
         "imgOne":"./activitiesAssets/back_to_school.jpeg",
-        "imgTwo": "./activitiesAssets/back_to_schol.jpeg"
+        "imgTwo": "./activitiesAssets/back_to_schol.jpeg", 
+        "bgColor": "bg-[#E9E9E9]"
     },  
     {
         "heading": "Vocational Training",
         "para":"We empower individuals with skills to improve their lives through our vocational training programs. From tailoring and baking to carpentry and computer skills, we teach practical trades that help people earn a living. These programs focus on self-reliance, building confidence, and creating opportunities for a sustainable future. Our goal is to lift people out of poverty by giving them the tools to succeed. Everyone deserves a chance to thrive, and we’re here to make it happen.",
         "imgOne":"./activitiesAssets/voc-training-two.jpg", 
-        "imgTwo":"./activitiesAssets/vocational-training.jpg"  
+        "imgTwo":"./activitiesAssets/vocational-training.jpg", 
+        "bgColor": "bg-white" 
     }
 ]

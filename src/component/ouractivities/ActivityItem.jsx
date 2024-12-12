@@ -1,6 +1,6 @@
 
 
-const ActivityItem = ({heading, paragraph, imgOne, imgTwo}) => {
+const ActivityItem = ({heading, paragraph, imgOne, imgTwo, className}) => {
 
 
   
@@ -8,12 +8,13 @@ const ActivityItem = ({heading, paragraph, imgOne, imgTwo}) => {
 
   return (
     <>
-      <section className='pt-[2rem] pb-[3rem] md:flex md:flex-row md:gap-[5%] '>
+    <section className={`${className}`}>
+    <div className='w-[90%] sm:w-[80%] md:w-[90%] !mx-auto py-[6rem] md:flex md:flex-row items-center md:gap-[5%]'>
         <div className='flex flex-col gap-6 md:gap-[.7rem] mb-[2rem] md:mb-0 md:w-[45%] xl:w-[40%]  md:order-2 md:flex md:flex-row'>
-          <div className="h-[11rem] sm:h-[17rem] overflow-hidden md:w-[50%] md:h-auto">
+          <div className="h-[11rem] sm:h-[17rem] overflow-hidden md:w-[50%]">
             <img src={imgOne} alt='activity one' className='filter h-full w-full brightness-90 rounded-[6px] md:h-full object-cover object-center' />
           </div>
-          <div className="h-[11rem] sm:h-[17rem] overflow-hidden md:w-[50%] md:h-auto">
+          <div className="h-[11rem] sm:h-[17rem] overflow-hidden md:w-[50%]">
             <img src={imgTwo} alt='activity two' className='filter h-full w-full brightness-90 rounded-[6px] md:h-full object-cover object-center' />
           </div>
           
@@ -24,7 +25,9 @@ const ActivityItem = ({heading, paragraph, imgOne, imgTwo}) => {
             {paragraph}
           </p>
         </div>
-      </section>
+      </div>
+    </section>
+    
     </>
   )
 }

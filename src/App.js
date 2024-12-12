@@ -16,7 +16,10 @@ import Nav from './component/Nav';
       element:(
 
         <div>
-          <Nav/>
+          <div className='bg-white'>
+            <Nav/>
+        </div>
+
           <main>
             <Outlet/>
           </main>

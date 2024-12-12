@@ -5,7 +5,7 @@ import ImgBackdrop from './ImgBackdrop'
 function OurVision() {
   return (
     <>
-        <div className='py-[5rem] sm:py-[6.5rem] justify-center flex flex-col md:flex-row md:mb-[2rem] gap-[2rem] sm:gap-[3rem] xl:gap-[4rem] md:gap-[1.4rem] lg:gap-[2.5rem]'>
+        <div className='pb-[5rem] pt-[2.5rem] sm:pb-[6.5rem] justify-center flex flex-col md:flex-row md:mb-[2rem] gap-[2rem] sm:gap-[3rem] xl:gap-[4rem] md:gap-[1.4rem] lg:gap-[2.5rem]'>
         <ImgBackdrop
           className='before:bg-[#03768F]'
           img={AboutBanner}/> 

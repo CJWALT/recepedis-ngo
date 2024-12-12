@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AboutBanner from '../../assets/ouractivitiesslidetwo.jpeg'
 import ImgBackdrop from './ImgBackdrop'
 
