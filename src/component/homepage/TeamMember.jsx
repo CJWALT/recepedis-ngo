@@ -75,7 +75,7 @@ export default function TeamMember() {
                     </div>
                     
                     <span className='block'>
-                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>FONGUH Julius </h4>
+                        <h4 className='font-semibold text-[1rem] sm:text-[1.2rem] text-[#121A6B]'>Fonguh Julius </h4>
                         <small className='font-normal text-[.8rem] sm:text-[1rem]'>Treasurer</small>
                     </span>
                 </div >

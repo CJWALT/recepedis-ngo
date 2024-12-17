@@ -60,7 +60,7 @@ function Testimonial() {
                             <div className='embla__slide w-full gap-[1.5rem] flex flex-col items-center'>
                             <p className='text-[.8rem] font-[inter] w-[16rem] sm:w-[24rem] md:w-[35rem] lg:w-[42rem] md:text-[1rem] font-normal leading-[1.5rem]'>{testimonial.para}</p>
                             <div className='flex flex-col gap-2 items-center'>
-                                <img src={UserOne} alt="testimonial" className='w-[4rem] h-[4.5rem] md:w-[5rem] md:h-[5.5rem] object-cover object-center rounded-[100%]' />
+                                <img src={testimonial.img} alt="testimonial" className='w-[4rem] h-[4.5rem] md:w-[5rem] md:h-[5.5rem] object-cover object-center rounded-[100%]' />
                                 <small className='text-[.7rem] font-[inter] opacity-75 font-normal'>{testimonial.name}, {testimonial.age} </small>
                             </div>
                         </div>
