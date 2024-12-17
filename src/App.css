@@ -51,8 +51,7 @@ body{
 
   .set-overlay::before{
     background:black;
-    content:'';
-    
+    content:'';    
     position:absolute;
     top:0; 
     left:0; 
@@ -78,5 +77,8 @@ body{
   .active-tabs{ 
     color: #121A6B; 
     font-weight:600;
-    
+  }
+
+  .overlay__blue{ 
+    filter:sepia(1) hue-rotate(180deg) saturate(200%);
   }

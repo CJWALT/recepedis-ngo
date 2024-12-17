@@ -6,6 +6,8 @@ import Button from '../component/Button'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import { toast, ToastContainer} from 'react-toastify'
 
@@ -56,13 +58,13 @@ function Contact() {
  
   return (
     <div className='relative'>
-       <span className='bg-[#010104cc] -z-10 absolute h-[50%] md:bottom-unset md:right-0 md:w-[50%] md:h-[100%] bottom-0 w-full block'>
+       <span className='bg-[#121A6B] -z-10 absolute h-[50%] md:bottom-unset md:right-0 md:w-[50%] md:h-[100%] bottom-0 w-full block'>
         </span>
             <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto py-[3rem]'>
               <div className='flex flex-col'>
                   <h4 className='font-bold mb-[.8rem] text-[2rem]'>Get in Touch </h4>
                   <div className='md:flex md:flex-row md:flex-wrap gap-4 xl:gap-10'>
-                      <div className=' px-4 py-6 md:px-8 md:py-10 lg:px-12 lg:py-20 xl:px-16 xl:py-20 md:w-[60%] bg-white shadow-lg'>
+                      <div className=' px-4 py-6 md:px-8 md:py-10 lg:px-12 lg:py-20 xl:px-16 xl:py-20 md:w-[60%] bg-white shadow-xl'>
                       <form onSubmit={handleSubmit} className='flex flex-col gap-4 '>
                         
                           <input type='text' value={name} className='p-4 border-2 border-black rounded-md h-12' placeholder='Name:' onChange={(e) => setName(e.target.value)} required/>
@@ -81,17 +83,19 @@ function Contact() {
                     <h5 className='mb-2 text-[1rem] md:text-[1.4rem] lg:text-[2rem] font-normal lg:font-bold'> Stay Connected with us: </h5> 
                       <div className='mb-4 flex gap-[1rem]'>
                         <span>
-                        <a href="https://instagram.com/recepedis237?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer"><InstagramIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>  
+                        <a href="https://youtube.com/@redemptioncenterforpersons597" target="_blank" rel="noopener noreferrer"><YouTubeIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         </span>
                         <span>
                         <a href="https://www.facebook.com/profile.php?id=100079275348605&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer"><FacebookIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         </span>
                         <span>
                         <a href="https://wa.me/+237677087801" target="_blank" rel="noopener noreferrer"><WhatsAppIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
-
                         </span>
                         <span>
                         <a href="https://instagram.com/recepedis237?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer"><InstagramIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>  
+                        </span>
+                        <span>
+                        <a href="https://www.linkedin.com/in/patricia-ngum-22a54724a" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='!w-[2rem] !h-[2rem] px-[.3rem] py-[.3rem] bg-[#E9E9E9] rounded-full text-[#121A6B]'/></a>
                         </span>
                         </div>
                         <div>

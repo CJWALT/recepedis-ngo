@@ -19,17 +19,17 @@ function AboutSection() {
                 <p className='font-semibold text-[1rem] mb-[1.5rem]'>   
                     Restoring hope to a dying world, giving life a meaning
                 </p>
-                <p className='font-light mb-[2.3rem] text-justify text-[.8rem]'>
+                <p className='font-light mb-[2.3rem] text-[.8rem]'>
                 At our Redemption Center, we are dedicated to providing a safe and welcoming space for individuals in distress. Our mission is to offer compassionate support, resources, and guidance to those in need, helping them rebuild their lives and regain a sense of hope and stability. With a team of caring professionals, we strive to create an environment where healing, personal growth, and positive change are possible. We believe in the power of community and are here to walk alongside each person on their journey to recovery.
                 </p>
                 <Button
                     children='View More'
                     onClick={goToAboutUsPage}
-                    className='bg-btnColor hover:text-black hover:bg-white'/>
+                    className='bg-[#121A6B] text-white'/>
             </div>
             <div className='order-1 md:order-2 md:flex md:flex-col md:flex-auto'>
                 <div className='h-[13rem] overflow-hidden justify-center mb-[.8rem] flex flex-col items-end'>
-                    <h6 className='text-blueText sm:text-[1.5rem] text-[1.2rem] mb-[.7rem] font-bold'>In a mission</h6>
+                    <h6 className='text-blueText sm:text-[1.5rem] text-[1.2rem] mb-[.7rem] font-bold'>On a mission</h6>
                     <small className='text-[1rem] text-right block font-semibold w-[17rem] sm:w-[21rem]'>Bringing hope to a world in need, giving life renewed purpose.</small>
                 </div>
 

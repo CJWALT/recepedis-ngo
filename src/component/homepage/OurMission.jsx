@@ -20,13 +20,13 @@ function OurMission( ) {
             <div className='set-overlay relative md:w-[19rem] lg:w-[24rem] xl:w-[26rem] xl:basis-[27rem] lg:basis-[25rem] md:basis-[20rem] md:flex-shrink-0 md:flex-grow-0 bg-hero-pattern md:pl-[1rem] md:pr-[1.7rem] pl-[2rem] pr-[3rem] flex flex-col justify-center h-[30rem] bg-no-repeat bg-cover bg-center'>
               <div className='z-10'>                  
                 <h4 className='mb-[1.5rem] w-[16rem] text-white text-[1.3rem] sm:text-[1.5rem] font-semibold'>Become a proud volunteer now</h4>
-                <p className='font-normal text-white mb-[4rem] text-[1.3rem] sm:text-[1.5rem] text-justify sm:leading-[2.1rem] leading-[1.9rem]'>Join us as a proud volunteer and make a difference in the lives of those in need. Your support changes lives—donate today!</p>
+                <p className='font-normal text-white mb-[4rem] text-[1.3rem] sm: sm:leading-[2.1rem] leading-[1.9rem]'>Join us as a proud volunteer and make a difference in the lives of those in need. Your support changes lives—donate today!</p>
               </div>
               
                 <div className='absolute bottom-8'>
                   <Button 
                 children='Donate Now'
-                className='bg-btnColor text-white rounded-[6px] hover:bg-white hover:text-black'/>
+                className='bg-[#121A6B] text-white rounded-[6px] hover:bg-white hover:text-black'/>
                 </div>
             </div>
             
@@ -51,13 +51,13 @@ function OurMission( ) {
                         <span className={ `${showTabs === 3 ? 'active-tabs-border' : 'border-0'} absolute -bottom-[.21rem] left-0 w-[100%]`}></span>
                       </div>
                     </div>
-                    <div className={`${showTabs === 1 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] text-justify sm:leading-[1.5rem] leading-[1rem]`}>
+                    <div className={`${showTabs === 1 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] sm:leading-[1.5rem] leading-[1rem]`}>
                     Restore hope among these vulnerable persons, and groups that have been affected by war, political and economic crises, poverty, abuse violence, disease and other natural calamities through rescue, psychosocial support, education and advocacy so that every individual feels seen, heard and valued.
                     </div>
-                    <div className={`${showTabs === 2 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] text-justify sm:leading-[1.5rem] leading-[1rem]`}>
+                    <div className={`${showTabs === 2 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] sm:leading-[1.5rem] leading-[1rem]`}>
                     A world where mental and emotional health Is prioritized, where compassion reigns supreme and no one suffers in solitude by eradicating evstigma and silence.
                     </div>
-                    <div className={`${showTabs === 3 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] text-justify sm:leading-[1.5rem] leading-[1rem]`}>
+                    <div className={`${showTabs === 3 ? 'show-tabs' : 'hide-tabs'} font-regular text-[.7rem] sm:text-[1rem] sm:leading-[1.5rem] leading-[1rem]`}>
                     Provide a helistic transformation for the most vulnerable in society with rescue, counseling health care, psychosocial support, training. empowerment and exposure to life changing InnovatIons.
                     </div>
                 </div>

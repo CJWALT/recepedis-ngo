@@ -21,7 +21,7 @@ const ActivityItem = ({heading, paragraph, imgOne, imgTwo, className}) => {
         </div>
         <div className='md:w-[50%] xl:w-[55%] md:order-1'>
           <h2 className='font-medium text-[1.4rem] sm:text-[1.7rem] mb-[1rem]'>{heading}</h2>
-          <p className='font-light text-[.9rem] sm:text-[1rem] text-justify leading-[1.6rem]'>
+          <p className='font-light text-[.9rem] sm:text-[1rem] leading-[1.6rem]'>
             {paragraph}
           </p>
         </div>

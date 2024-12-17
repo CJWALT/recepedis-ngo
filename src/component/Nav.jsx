@@ -49,7 +49,7 @@ function Nav() {
         <div>
           <Button
             children='Donate'
-            className='bg-btnColor'/>
+            className='bg-[#121A6B] text-white'/>
         </div>
        
       </div>
