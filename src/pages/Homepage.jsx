@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useEffect } from 'react'
 
 
 import CarouselBtnRight from '../component/CarouselBtnRight'
@@ -27,7 +27,28 @@ function Homepage() {
 
   const navigate = useNavigate();
 
-  const [emblaRef, emblaApi] = useEmblaCarousel();
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop:true });
+
+  useEffect(() => {  
+    if(!emblaApi) return; 
+
+    let autoSlideInterval;
+
+    const startAutoSlide=()=>{ 
+      autoSlideInterval = setInterval(()=>{
+        emblaApi.scrollNext(); 
+
+      }, 3000);
+    }
+
+    startAutoSlide();
+
+ return ()=>{ 
+  clearInterval(autoSlideInterval)
+ }
+
+  }, [emblaApi])
+  
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -51,9 +72,9 @@ function Homepage() {
         <div className="embla__slide w-[100%] h-[800px] flex-shrink-0"><img src={HeroImgThree} className='set-brightness object-cover h-[800px] object-center'alt='hero-slide'/></div>
       </div>
       <div className='absolute overflow-hidden max-w-[1280px] w-[90%] sm:w-[80%] md:w-[90%] mx-auto left-0 right-0 justify-center flex flex-col inset-0'>
-            <h2 className='leading-[2.7rem] sm:leading-[3.5rem] md:leading-[4rem] lg:leading-[5.8rem] font-[Poppins] text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.8rem] xl:text-[4rem] font-bold text-white'>Restoring Hope, <br/> Embracing <span className='text-[#121A6B]'>Compassion</span> </h2>
+            <h2 className='leading-[2.7rem] sm:leading-[3.5rem] md:leading-[4rem] lg:leading-[5.8rem] font-[Poppins] text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.8rem] xl:text-[4rem] font-bold text-white'>Restoring Hope, <br/> Embracing Compassion </h2>
             <p className='text-white sm:w-[28rem] md:w-[34rem] lg:w-[43rem] font-[Poppins] text-[1.2rem] lg:text-[1.5rem] font-bold mt-[1.3rem]'>
-            Join us in creating a world where mental and all round wellness thrive
+            Join us in creating a world where mental and all round wellness thrive.
             </p>
             <div className='mt-[13rem] w-[22rem] max-w-[23rem] overflow-hidden flex flex-row gap-4'>
               <Button 
@@ -61,24 +82,19 @@ function Homepage() {
               onClick={goToActivitiesPage}
               className='bg-[#121A6B] text-white hover:bg-white hover:text-black'/>
               <Button 
-                children='Donate Now'
-                className='bg-white text-black hover:bg-btnColor hover:text-white'/>
+                children='Donate'
+                className='bg-[#121A6B] hover:bg-btnColor text-white'/>
             </div>
           </div>
-      <div className="flex absolute max-w-[1440px] w-[95%] bottom-[18rem] left-0 right-0 mx-auto justify-between">
-        <CarouselBtnLeft onClick={scrollPrev} />
-        <CarouselBtnRight onClick={scrollNext} />
       </div>
-
-    </div>
     <AboutSection/>
 
     <section className='overflow-hidden w-[90%] sm:w-[80%] md:w-[90%] max-w-[1280px] mx-auto flex-wrap justify-center md:gap-[2.1rem] xl:gap-[.8rem] flex flex-row md:pb-[3rem] md:pt-0 py-[3rem] items-center gap-[3rem]'>
-      <div className='flex-none relative'><img src={BannerImgOne} alt='counselling with patricia' className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] overlay__blue opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
+      <div className='flex-none relative'><img src={BannerImgOne} alt='counselling with patricia' className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
       <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Counselling</small></div>
-      <div className='flex-none relative'><img src={BannerImgTwo} alt='vocational training'  className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] overlay__blue opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
+      <div className='flex-none relative'><img src={BannerImgTwo} alt='vocational training'  className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
       <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Vocational Training</small></div>
-      <div className='flex-none relative'><img src={BannerImgThree} alt='safe lodge activities'  className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] overlay__blue opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
+      <div className='flex-none relative'><img src={BannerImgThree} alt='safe lodge activities'  className='object-cover w-[22rem] xl:w-[21.5rem] xl:h-[15.3rem] md:h-[13.3rem] md:w-[20rem] lg:w-[24rem] lg:h-[14.3rem] opacity-60 relative h-[13.3rem] object-center rounded-[6px]'/>
       <small className='absolute bottom-[2.1rem] text-center w-full flex justify-center font-semibold text-[1.2rem] text-blueText left-0 right-0'>Safe Lodging</small></div>
     </section>
     <OurMission/>

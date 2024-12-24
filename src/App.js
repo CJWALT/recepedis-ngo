@@ -7,6 +7,8 @@ import AboutUs from './pages/AboutUs';
 import NotFound from './pages/NotFound';
 import Footer from './component/Footer';
 import Nav from './component/Nav';
+import Privacy from './pages/Privacy';
+import TermsAndCondition from './pages/TermsAndCondition';
 
 
   const router = createBrowserRouter([ 
@@ -43,6 +45,14 @@ import Nav from './component/Nav';
         {
           path:'/about-us',
           element:<AboutUs/>
+        }, 
+        {
+          path:'/privacy',
+          element:<Privacy/>
+        }, 
+        {
+          path:'/tnc',
+          element:<TermsAndCondition/>
         }, 
         {    path:'*', 
             element:<NotFound/>

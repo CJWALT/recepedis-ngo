@@ -16,16 +16,16 @@ function Contact() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('')
-
-   
+  const [message, setMessage] = useState('')  
+  const [data, setData]= useState('')
   
   
   
   const handleSubmit = async (e) =>{
     e.preventDefault();
-    
+    setData('sending')
     try{ 
+      
         const res = await fetch('https://recepedis-api.vercel.app/api/sendmessage',{ 
             method:'POST',
             body: JSON.stringify({ 
@@ -49,18 +49,25 @@ function Contact() {
             else{ 
               toast.error('Failed to send Message.')
             }            
+            const data = res.json(); 
+
+            
+          
           }
       catch(err){ 
       console.log('err', err)
       toast.error('Something went wrong. Please try again')
     }    
+    finally{
+      setData(false)
+    }
   }
  
   return (
     <div className='relative'>
        <span className='bg-[#121A6B] -z-10 absolute h-[50%] md:bottom-unset md:right-0 md:w-[50%] md:h-[100%] bottom-0 w-full block'>
         </span>
-            <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto py-[3rem]'>
+            <div className='w-[90%] max-w-[1280px] sm:w-[80%] md:w-[90%] mx-auto py-[3rem]'>
               <div className='flex flex-col'>
                   <h4 className='font-bold mb-[.8rem] text-[2rem]'>Get in Touch </h4>
                   <div className='md:flex md:flex-row md:flex-wrap gap-4 xl:gap-10'>
@@ -74,7 +81,7 @@ function Contact() {
                         
                           <div>
                           <Button
-                          children='Send Message'
+                          children={data ? 'Sending' : 'Send Message'}
                           className='bg-btnColor hover:bg-white rounded-lg'/>
                             </div>        
                               </form>  

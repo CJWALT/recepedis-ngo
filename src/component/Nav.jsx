@@ -32,13 +32,13 @@ function Nav() {
       </NavLink>
      <div className={` justify-between z-30  items-center transition-opacity duration-500 ease-in ${openMenu ? ' flex absolute left-0 transition-opacity opacity-100 duration-900 ease-in-out top-0 rounded-lg w-[13rem] bg-[#6EB6E9] py-6 flex-col' : 'opacity-0 hidden lg:opacity-100 lg:flex lg:w-[45rem] lg:max-w[41rem]'}`}>
          <ul className='w-[70%] lg:w-[72%]'>
-          <div className='flex flex-col lg:flex-row items-center gap-4 lg:pb-0 pb-[2rem] justify-between'>
+          <div className='flex flex-col lg:flex-row gap-4 lg:pb-0 pb-[2rem] justify-between'>
            
             {links.map((link) => ( 
               
               <li key={link.id} className='list-none'>
                   <NavLink to={link.path} className={({ isActive }) =>
-                    `z-50 font-[montserrat] text-[1.25rem] font-bold text-navTextColor hover:text-[#101B6B] ${isActive ? 'text-[#101B6B]' : ''}`}>
+                    `z-50 font-[montserrat] text-left text-[1.25rem] font-bold text-black hover:text-[#101B6B] ${isActive ? 'text-[#101B6B]' : ''}`}>
                  {link.name}
                  </NavLink>
               </li>

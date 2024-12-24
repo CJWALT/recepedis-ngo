@@ -44,7 +44,7 @@ const Footer = () => {
                         </ul>
                 </div>
                 <div>
-                    <h4 className='capitalize text-[#121A6B] font-semibold text-center bg-[#E9E9E9] w-[10rem] py-[10px] pl-[5px] rounded-[6px]'>Care Lines</h4>
+                    <h4 className='capitalize text-[#121A6B] font-semibold text-center bg-[#E9E9E9] w-[10rem] py-[10px] pl-[5px] rounded-[6px]'>Care Line</h4>
                     <ul className='pl-[5px] flex flex-col gap-6 mt-4'>
                         <li><PhoneIcon/> <a href="tel:+237677087801">+237 677 0 87801</a></li>
                         
@@ -54,16 +54,16 @@ const Footer = () => {
 
             <div className='font-light text-[.6rem] sm:text-[.8rem] gap-[10px] flex-wrap justify-center pb-[1rem] flex flex-row'>
                 <span className='mb-[1rem] block'>
-                    Copyright <a href='https://www.github.com/cjwalt' target='_blank' className='text-btnColor font-bold'>cjwalt 2024</a> All Rights Reserved.
+                    Copyright <a href='https://www.github.com/cjwalt' target='_blank' className='   font-bold'>cjwalt 2024</a> All Rights Reserved.
                 </span>
                 <div className='flex flex-row justify-between gap-8'>
                     <span>
-                        <Link to='/'>
+                        <Link to='/tnc'>
                             Terms & Conditions
                         </Link>
                     </span>
                     <span>
-                        <Link to='/'>
+                        <Link to='/privacy'>
                             Privacy & Policy    
                         </Link>
                     </span>
