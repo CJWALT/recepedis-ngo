@@ -1,7 +1,5 @@
 import React, { useCallback } from 'react'
 
-import SlideImage from '../../assets/ouractivitiesslidetwo.jpeg'
-// import SlideImageTwo from '../assets/ouractivitiesslide.jpeg'
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -51,7 +49,7 @@ function OurActivities() {
                                 <p className='font-normal mb-[1.5rem] leading-[1.7rem] text-[.8rem] sm:text-[1rem]'>
                                     {activity.para.slice(0, 260) + "..."}
                                 </p>
-                                <Link to='/ouractivities' className='text-[.9rem] sm:text-[1.1rem] font-semibold text-[#121A6b]'>Read more <ArrowForwardIosIcon className='w-[1.1rem] h-[1.06rem]'/> </Link>
+                                <Link to='/ouractivities' className='text-[.9rem] sm:text-[1.1rem] font-semibold text-[#121A6b]'>Read more <ArrowForwardIosIcon className='!w-[1.2rem] !h-[1.2rem]'/> </Link>
                             </div>
                     </div> 
                             ))}

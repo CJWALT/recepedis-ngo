@@ -81,8 +81,8 @@ function Contact() {
                         
                           <div>
                           <Button
-                          children={data ? 'Sending' : 'Send Message'}
-                          className='bg-btnColor hover:bg-white rounded-lg'/>
+                          children={data ? 'Sending...' : 'Send Message'}
+                          className='bg-[#121A6B] text-white rounded-lg'/>
                             </div>        
                               </form>  
                     </div>

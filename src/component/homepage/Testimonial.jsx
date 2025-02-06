@@ -51,18 +51,18 @@ function Testimonial() {
 
 
   return (
-    <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto max-w-[1280px] py-[2rem]'>
+    <div className='w-[90%] sm:w-[80%] md:w-[90%] mx-auto max-w-[1280px] pt-[2rem] pb-[4rem]'>
       <h4 className='text-[1.2rem] text-center sm:text-[1.5rem] font-semibold text-blueText mb-[2.6rem]'>Testimonial</h4>
       
     
         <div className='relative embla w-full' ref={emblaRef}>
                 <div className="embla__container w-full flex flex-row gap-8">
                         {testimonials.map((testimonial)=>(
-                            <div className='embla__slide w-full gap-[1.5rem] flex flex-col items-center'>
-                            <p className='text-[.8rem] font-[inter] w-[16rem] sm:w-[24rem] md:w-[35rem] lg:w-[42rem] md:text-[1rem] font-normal         italic leading-[1.5rem]'>" {testimonial.para} "</p>
+                            <div key={testimonial.age} className='embla__slide w-full gap-[1.5rem] md:gap-[2.5rem] flex flex-col items-center'>
+                            <p className='text-[.8rem] font-[inter] w-[16rem] sm:w-[24rem] md:w-[35rem] lg:w-[42rem] md:text-[1rem] font-normal italic leading-[1.5rem]'>" {testimonial.para} "</p>
                             <div className='flex flex-col gap-2 items-center'>
                                 <img src={testimonial.img} alt="testimonial" className='w-[4rem] h-[4.5rem] md:w-[5rem] md:h-[5.5rem] object-cover object-center rounded-[100%]' />
-                                <small className='text-[.7rem] font-[inter] opacity-75 font-normal'>{testimonial.name}, {testimonial.age} </small>
+                                <small className='text-[.7rem] sm:text-[1rem] font-[inter] opacity-75 font-normal'>{testimonial.name}, {testimonial.age} </small>
                             </div>
                         </div>
                         ))}
